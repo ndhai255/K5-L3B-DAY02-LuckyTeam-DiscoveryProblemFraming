@@ -15,7 +15,7 @@
 | 1 | Nguyễn Đức Hải | 2A202603943 | Nhóm trưởng (fork repo), điều phối thời gian; phụ trách hội tụ nhóm (CP3); tổng hợp `group_report.md` | ndhai255 |
 | 2 | Trần Tùng Lâm | 2A202603893 | Phụ trách kiểm chứng (CP4); viết Problem Statement v0 (CP5) | |
 | 3 | Vũ Quang Hải | 2A202603935 | Phụ trách research (CP4); mức can thiệp AI và Problem Statement v1 (CP6) | HaiVuQ |
-| 4 | Nguyễn Anh Quân | | Vẽ quy trình trước/sau (CP5); phụ trách quyết định và 4 rủi ro (CP6) | |
+| 4 | Nguyễn Anh Quân | 2A202603950 | Vẽ quy trình trước/sau (CP5); phụ trách quyết định và 4 rủi ro (CP6) | anhhquan511 |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -65,3 +65,36 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Thiết kế theo kiểu lỗi tệ hơn.** Bỏ sót điều kiện mất 2–5 điểm, còn báo nhầm chỉ tốn vài giây. Vì vậy nhóm để mẫu tìm rộng, chấp nhận khoảng 9% dòng nhiễu, và thêm bước con người kiểm mỗi tiêu chí C1–C11 có ít nhất 1 dòng.
 - **Dùng AI để phản biện, không để viết hộ.** Nhóm đưa Problem Statement v0 cho AI với yêu cầu "chỉ ra lỗ hổng, không viết lại". AI chỉ ra metric chỉ đo thời gian, Impact và quy trình lệch nhau. Từ đó nhóm sửa thành v1 có thêm metric độ phủ và 0 lỗi tên.
 - **Xử lý bất đồng bằng tiêu chí chung.** Card chính của hai bạn không được chọn. Nhóm thống nhất dựa trên tiêu chí "kiểm chứng được ngay trong buổi lab", và ghi các card đó vào hướng tiếp theo kèm việc cần đo.
+
+
+### NguyenAnhQuan-2A202603950
+
+**Phần việc phụ trách:**
+
+- Trình bày 3 card cá nhân; đặt và tiếp nhận câu hỏi phản biện ở CP3.
+- Tham gia thảo luận cluster/OST, shortlist và lựa chọn candidate.
+- Tham gia rà phần kiểm chứng, research, quy trình, Problem Statement và lựa chọn mức can thiệp ở CP4–CP6.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Đưa ra card #10 Theo dõi ứng tuyển, #11 Định dạng báo cáo và #12 Đọc tài liệu nghiên cứu; #12 được gộp với #7 để so sánh trong shortlist.
+- Hỏi về checklist SUBMISSION ở candidate đọc đề lab, khả năng lấy dữ liệu GPS/giao thông ở candidate VinBus và quyền riêng tư khi đọc lịch sử chat.
+- Tiếp nhận phản biện về số liệu minh họa, phương án bảng tính/template và nguyên nhân đọc nghiên cứu chậm; giữ rõ giới hạn baseline trong báo cáo cá nhân.
+- Tham gia rà các giả định và snapshot, đối chiếu tín hiệu xác nhận/phản bác; rà các bước quy trình, thời gian, bước người kiểm và phương án quay về.
+- Tham gia so sánh v0/v1, xem xét metric chất lượng bên cạnh tốc độ, thảo luận lựa chọn Rule kèm đổi thứ tự đọc và ngưỡng dừng của nhóm.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- [report/team/group_report.md](report/team/group_report.md): mục 2.1 ghi pitch và câu hỏi phản biện; mục 2.2–2.4 ghi cluster và shortlist; mục 3–8 là kết quả chung đã tham gia thảo luận/rà soát.
+- [report/individual/2A202603950_NguyenAnhQuan.md](report/individual/2A202603950_NguyenAnhQuan.md): mục 3 có ba card và phản biện; mục 4 ghi các hoạt động tham gia; mục 5 ghi phạm vi dùng AI.
+- Commit: bổ sung mã commit sau khi tự commit báo cáo bằng tài khoản GitHub của mình.
+
+**Điều mình học được từ phần nhóm:**
+
+- Cần phân biệt vấn đề với giải pháp, xác định bước nghẽn bằng bằng chứng và so sánh phương án không dùng AI trước khi chọn mức cao hơn.
+- Metric cần đo cả thời gian lẫn chất lượng; kết quả thử trên một đề chưa đủ để suy rộng cho mọi lab.
+- No-Go cho AI vẫn có thể là quyết định hợp lý nếu Rule đủ dùng, có bước con người kiểm và điều kiện đánh giá lại rõ ràng.
+- Qua việc card nghiên cứu của tôi được gộp với card #7 của Quang Hải, tôi học được cách tìm điểm chung giữa các vấn đề để thảo luận hiệu quả hơn. Việc chọn bài toán chung cần dựa trên bằng chứng, dữ liệu có thể tiếp cận và phạm vi lab, thay vì ưu tiên giữ đề xuất của riêng mình.
+- Câu hỏi về nguyên nhân đọc nghiên cứu chậm giúp tôi thấy phản biện cần đi vào từng bước cụ thể. Nêu được thời gian mất chưa đủ; cần phân biệt khó khăn do quy trình, thông tin phân tán hay kiến thức nền trước khi đề xuất cách hỗ trợ.
+- Tôi thấy cần phân công rõ người phụ trách, người hỗ trợ và vị trí lưu sản phẩm ngay từ đầu. Ghi lại câu hỏi phản biện, phần đã chỉnh sửa và bằng chứng đóng góp trong lúc làm sẽ giúp báo cáo cuối cùng cụ thể, dễ đối chiếu hơn.
+
