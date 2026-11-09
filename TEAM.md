@@ -13,7 +13,7 @@
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
 | 1 | Nguyễn Đức Hải | 2A202603943 | Nhóm trưởng (fork repo), điều phối thời gian; phụ trách hội tụ nhóm (CP3); tổng hợp `group_report.md` | ndhai255 |
-| 2 | Trần Tùng Lâm | 2A202603893 | Phụ trách kiểm chứng (CP4); viết Problem Statement v0 (CP5) | |
+| 2 | Trần Tùng Lâm | 2A202603893 | Phụ trách kiểm chứng (CP4); viết Problem Statement v0 (CP5) | lamtt262004 |
 | 3 | Vũ Quang Hải | 2A202603935 | Phụ trách research (CP4); mức can thiệp AI và Problem Statement v1 (CP6) | HaiVuQ |
 | 4 | Nguyễn Anh Quân | 2A202603950 | Vẽ quy trình trước/sau (CP5); phụ trách quyết định và 4 rủi ro (CP6) | anhhquan511 |
 
