@@ -53,7 +53,11 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
 - `group_report.md` mục 2.1 (dòng #1–#3; câu hỏi phản biện ở dòng #4, #7, #11), mục 2.3 (ý bị gạch của #7), mục 2.4 (lý do loại #4 và #11).
-- Repo fork thuộc tài khoản `ndhai255`; lịch sử commit của `report/team/group_report.md`.
+- Repo fork thuộc tài khoản `ndhai255`.
+- Commit:
+  - [`08682e9`](https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming/commit/08682e9bddd0ddd56de8c25a0c89cce43694b310): viết báo cáo cá nhân phần CP0–CP2.
+  - [`6388ce0`](https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming/commit/6388ce0c6a75af4ab487f7e525b7386a7a6d427d): tổng hợp và biên tập `report/team/group_report.md`.
+  - [`25b670f`](https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming/commit/25b670fa6206cccefb12f598fecca0df1fd68a65): cập nhật `TEAM.md`, thêm `report/assets/cp4-doc-review.md`, hoàn thiện báo cáo cá nhân.
 
 **Điều mình học được từ phần nhóm:**
 
@@ -87,7 +91,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 - [report/team/group_report.md](report/team/group_report.md): mục 2.1 ghi pitch và câu hỏi phản biện; mục 2.2–2.4 ghi cluster và shortlist; mục 3–8 là kết quả chung đã tham gia thảo luận/rà soát.
 - [report/individual/2A202603950_NguyenAnhQuan.md](report/individual/2A202603950_NguyenAnhQuan.md): mục 3 có ba card và phản biện; mục 4 ghi các hoạt động tham gia; mục 5 ghi phạm vi dùng AI.
-- Commit: bổ sung mã commit sau khi tự commit báo cáo bằng tài khoản GitHub của mình.
+- Commit [`a48ea80`](https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming/commit/a48ea804389cf7b6c3b9e3b1035f10c67db5b3b3) (tài khoản `anhhquan511`): thêm báo cáo cá nhân và mục đóng góp trong `TEAM.md`.
 
 **Điều mình học được từ phần nhóm:**
 
