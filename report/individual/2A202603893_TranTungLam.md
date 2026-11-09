@@ -9,7 +9,7 @@
 - Họ tên: Trần Tùng Lâm
 - MSSV: 2A202603893
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm: 
+- Tên nhóm: LuckyTeam
 - Link repo nhóm: https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming
 
 ---
@@ -31,7 +31,7 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
--
+- Không dùng AI ở bước này. Cả 8 problem đều lấy từ việc tôi hoặc người nhà gặp thật.
 
 ---
 
@@ -131,7 +131,8 @@ HIỆN TẠI — ~23 phút/lượt, ~5 lượt/tuần
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+| Baseline ~75'/tuần là ước lượng, chưa đo | Đồng ý | Ghi rõ cách đo: ghi giờ ra trạm, giờ dự kiến, giờ lên xe trong 1 tuần |
+| Nhảy ngay sang "dùng AI dự đoán giờ xe tới" | Không đồng ý | Giữ Rule (tô màu giao thông + công thức khoảng cách/tốc độ) làm phương án trước; AI chỉ khi sai số còn > 3' |
 
 ---
 
@@ -139,16 +140,16 @@ HIỆN TẠI — ~23 phút/lượt, ~5 lượt/tuần
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card: #4 Kết quả xét nghiệm MyVinmec, #5 Trạm sạc VinFast, #6 Chờ VinBus (card chính, ~75'/tuần đứng chờ) | #6 vào shortlist, xếp thứ 2 (25 điểm) |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "45 phút là bấm giờ hay nhớ lại?" (#1); "Trùng pattern với #7, gộp được không?" (#12); hỏi thêm về #3 và #8 đã có phương án No AI chưa | Baseline 45' thành giả định #1, thêm poll ở lab sau; #7 và #12 được gộp |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Nhóm lấy được dữ liệu GPS và giao thông của tuyến không?" (Anh Quân, #6); "Ai kiểm được lời giải thích y tế?" (Đức Hải, #4) | Tôi đã sửa gì: bỏ #4 (y tế, không kiểm được); nhận #6 thiếu dữ liệu, sẽ ghi giờ chờ 1 tuần để có baseline thật |
+| Gom cluster / cây OST | Xếp 3 card của tôi vào cluster C (thiếu thông tin đúng lúc để quyết định) | Cluster C nằm ngoài outcome, nhưng #6 vẫn vào shortlist để so sánh |
+| Chọn candidate problem | Chấm điểm shortlist, chấp nhận #6 điểm thấp ở "Vừa sức lab" | Đồng ý chọn #1 vì kiểm chứng được ngay trong buổi |
+| Kiểm chứng / research | Cùng nhóm đọc kết quả review đề, log sửa đề và 200 tên repo fork | Problem thu hẹp lại: gom điều kiện chấm + kiểm tên ngay sau khi làm |
+| Quy trình nhóm | Cùng nhóm vẽ quy trình trước/sau | 45' → ~18' (ước tính), 6/6 → 4/6 bước thủ công |
+| Problem Statement | Cùng nhóm viết v0, nhờ AI phản biện, sửa thành v1 | v1 thêm metric độ phủ 25/25 điều kiện và 0 lỗi tên |
+| Mức can thiệp AI | So sánh 4 mức No AI / Rule / Workflow / Agent | Chọn Rule + đổi thứ tự đọc; Workflow để dự phòng |
+| Quyết định | Cùng nhóm chấm 4 rủi ro | No-Go cho AI; thử quy trình mới ở Day 03 |
 
 ---
 
@@ -156,12 +157,11 @@ HIỆN TẠI — ~23 phút/lượt, ~5 lượt/tuần
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Không dùng. Problem lấy từ việc tôi gặp hằng ngày | — | — | — |
+| CP2 Problem Card | Nhờ AI phản biện card #6 Chờ VinBus, chỉ chỉ ra chỗ yếu, không viết lại | Hỏi đúng chỗ khó: baseline 75'/tuần là đo hay ước, Job Story có lẫn giải pháp không | Nhảy ngay sang "dùng AI dự đoán giờ xe tới", chưa xét cách đơn giản hơn | Giữ Rule (tô màu giao thông + công thức khoảng cách/tốc độ) làm phương án trước, AI chỉ khi sai số còn > 3' |
+| CP4 Research | Tìm công cụ đã có cho việc gom yêu cầu đề (NotebookLM, GitHub Classroom…) | Ra nhanh danh sách để kiểm | Một số thông tin cũ hoặc không có nguồn (GitHub Classroom đã ngừng từ 28/08/2026) | Mở trang gốc kiểm từng công cụ, chỉ giữ thông tin có link |
+| CP5 Quy trình | Không dùng. Các bước và số phút lấy từ đề và log của nhóm | — | — | — |
+| CP5–6 Problem Statement | Đưa v0 cho AI với prompt "chỉ ra lỗ hổng, không viết lại" | Chỉ ra metric chỉ đo thời gian, baseline 45' của 1 người, Impact và quy trình lệch nhau | Đề nghị thêm nhiều metric, có cái không đo được trong lab | Chỉ thêm 2 metric đo được: độ phủ 25/25 điều kiện và 0 lỗi tên |
 
 ---
 
@@ -170,21 +170,33 @@ HIỆN TẠI — ~23 phút/lượt, ~5 lượt/tuần
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+Theo tôi thấy nhiều card ban đầu có giải pháp nằm sẵn trong Job Story, ví dụ "tự động gom nhóm" ở #7. Card #3 và #8 thì đã có cách không cần AI nên việc đầu tiên xác định dự án có cần dùng đến AI hay không khá là quan trọng.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+Có. Nghe card đọc đề lab, ý đầu tiên của nhóm là làm chatbot hỏi đáp đề. Card VinBus của tôi cũng ghi "tô màu giao thông", vốn là cách giải chứ không phải vấn đề. Lúc vẽ cây OST nhóm mới thấy và gạch các ý này đi.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+Có. Tôi muốn nhóm chọn card VinBus vì tôi gặp hằng tuần. Nhưng Anh Quân hỏi lấy đâu ra dữ liệu GPS và giao thông thì tôi không trả lời được, nên tôi đồng ý chọn card đọc đề lab vì kiểm chứng được ngay trong buổi.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+Có. Đặt tên repo là việc dễ nhất mà 35/200 repo của lớp vẫn sai rõ, dù quy tắc nằm ngay bước 1 README và sai bị trừ 5 điểm. Tôi hiểu ra vấn đề không phải đề thiếu thông tin, mà là không có bước kiểm lại sau khi làm.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+Khó nhất là metric. Con số 45 phút chỉ là một người tự ghi. Lúc đầu nhóm chỉ đo thời gian, sau mới thấy làm nhanh mà sót điều kiện thì vô ích, nên thêm độ phủ điều kiện và số lỗi tên.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+Tôi sẽ ghi giờ chờ VinBus một tuần trước buổi lab để có số liệu thật. Tôi cũng sẽ đòi nhóm hỏi vài bạn nhóm khác mất bao lâu đọc đề, vì cả bài vẫn dựa trên con số 45 phút của một người.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
+Học viên K5 mất khoảng 45 phút đọc 6 file đề mới biết đủ điều kiện chấm, mà vẫn làm sai. Chỗ nghẽn là bước đối chiếu giữa các file, vì 25 điều kiện nằm rải ở 3 file. Metric là giảm từ 45 xuống dưới 20 phút, bắt đủ 25/25 điều kiện và không sai tên repo, tên file. Boundary là công cụ chỉ trích nguyên văn đề, không tóm tắt, không tự đổi tên. Nhóm chọn Rule (vài lệnh gom điều kiện và kiểm tên) vì đã đủ, nên quyết định No-Go cho AI.
 
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Báo cáo nhóm LuckyTeam: [report/team/group_report.md](../team/group_report.md)
+- Đề Day 02: [CHECKPOINTS.md](../../CHECKPOINTS.md), [RUBRIC.md](../../RUBRIC.md), [docs/01-worksheet.md](../../docs/01-worksheet.md)
+- Teresa Torres, Opportunity Solution Trees: https://www.producttalk.org/opportunity-solution-trees/
+- Google, NotebookLM / Gemini Notebook: https://support.google.com/notebooklm/answer/16179559
+- GitHub Docs, Use autograding: https://docs.github.com/en/education/manage-coursework-with-github-classroom/teach-with-github-classroom/use-autograding
+- Anthropic, Building effective agents: https://www.anthropic.com/research/building-effective-agents
