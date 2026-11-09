@@ -70,6 +70,34 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Dùng AI để phản biện, không để viết hộ.** Nhóm đưa Problem Statement v0 cho AI với yêu cầu "chỉ ra lỗ hổng, không viết lại". AI chỉ ra metric chỉ đo thời gian, Impact và quy trình lệch nhau. Từ đó nhóm sửa thành v1 có thêm metric độ phủ và 0 lỗi tên.
 - **Xử lý bất đồng bằng tiêu chí chung.** Card chính của hai bạn không được chọn. Nhóm thống nhất dựa trên tiêu chí "kiểm chứng được ngay trong buổi lab", và ghi các card đó vào hướng tiếp theo kèm việc cần đo.
 
+### TranTungLam-2A202603893
+
+**Phần việc phụ trách:**
+
+- Người chính CP4 Kiểm chứng và CP5 Problem Statement v0.
+- Hỗ trợ CP6 Mức can thiệp + Problem Statement v1.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- Pitch 3 card: #4 Kết quả xét nghiệm MyVinmec, #5 Trạm sạc VinFast, #6 Chờ VinBus. Card #6 vào shortlist, xếp thứ 2 (25 điểm).
+- Đặt câu hỏi phản biện cho 4 card: #1, #3 (Đức Hải), #8 (Quang Hải), #12 (Anh Quân). Câu "45 phút là bấm giờ hay nhớ lại?" ở #1 thành giả định #1 cần kiểm; câu ở #12 dẫn tới gộp #7 với #12.
+- CP4: lập Assumption Map, phỏng vấn 2 người ngoài nhóm (SV-01, SV-02) và review tài liệu đề, cùng Anh Quân.
+- CP5: viết Problem Statement v0, đưa AI phản biện với prompt "chỉ ra lỗ hổng, không viết lại".
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- `group_report.md` mục 2.1 (dòng #4–#6; câu hỏi phản biện ở dòng #1, #3, #8, #12), mục 3.1–3.2 (kiểm chứng), mục 5 (Problem Statement v0).
+- [report/individual/2A202603893_TranTungLam.md](report/individual/2A202603893_TranTungLam.md): mục 3–6.
+- Commit (tài khoản `lamtt262004`):
+  - [`ef72743`](https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming/commit/ef72743caddefacee5c47487010904dd85fec382): viết báo cáo cá nhân phần CP0–CP2.
+  - [`99128de`](https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming/commit/99128de686288082686f2f2498103736a0114d4a): hoàn thiện báo cáo cá nhân.
+
+**Điều mình học được từ phần nhóm:**
+
+- **Card hay mà không có dữ liệu thì chưa làm được.** Card VinBus mình gặp hằng tuần, nhưng nhóm không lấy được dữ liệu GPS và giao thông nên không kiểm chứng được trong buổi. Chọn bài kiểm chứng được ngay hợp lý hơn.
+- **Số ước lượng phải ghi rõ là ước lượng.** Con số 45 phút chỉ là một người tự ghi, nên nhóm phải để nó thành giả định và đặt việc đo lại ở lab sau.
+- **Phỏng vấn cho kết quả trái chiều.** SV-01 mất 35', SV-02 chỉ 14' vì đọc mẫu nộp trước. Nhưng cả 2 đều từng sót 1 yêu cầu có sẵn, nên cần bước kiểm sau khi làm chứ không chỉ đọc kỹ hơn.
+- **Nhờ AI chỉ lỗ hổng thì có ích hơn nhờ viết.** AI chỉ ra metric v0 chỉ đo thời gian, nhóm thêm metric độ phủ và 0 lỗi tên ở v1.
 
 ### NguyenAnhQuan-2A202603950
 
