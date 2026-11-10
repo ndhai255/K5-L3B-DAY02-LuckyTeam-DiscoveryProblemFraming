@@ -99,6 +99,31 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 - **Phỏng vấn cho kết quả trái chiều.** SV-01 mất 35', SV-02 chỉ 14' vì đọc mẫu nộp trước. Nhưng cả 2 đều từng sót 1 yêu cầu có sẵn, nên cần bước kiểm sau khi làm chứ không chỉ đọc kỹ hơn.
 - **Nhờ AI chỉ lỗ hổng thì có ích hơn nhờ viết.** AI chỉ ra metric v0 chỉ đo thời gian, nhóm thêm metric độ phủ và 0 lỗi tên ở v1.
 
+### VuQuangHai-2A202603935
+
+**Phần việc phụ trách:**
+
+-Phụ trách Research (CP4); mức can thiệp AI và Problem Statement v1 (CP6); hỗ trợ vẽ quy trình trước/sau (CP5) và tham gia pitch 3 card, phản biện tại CP3.
+
+**Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
+
+- **CP3:** Pitch 3 Problem Card cá nhân (về tổng hợp tài liệu, căn chỉnh slide, tìm lại quyết định chat), tham gia cụm hóa (cluster), xây dựng cây OST và chấm điểm shortlist cùng nhóm.
+- **CP4:** Thực hiện phần Research, tìm kiếm và tổng hợp các tài liệu benchmark, tài liệu tham khảo cho bài toán.
+- **CP5:** Hỗ trợ Nguyễn Anh Quân xây dựng và chuẩn hóa sơ đồ quy trình hiện tại (Before) và tương lai (After), chỉ ra rõ các điểm nghẽn (bottleneck).
+- **CP6:** Phụ trách xây dựng ma trận đánh giá 4 mức độ can thiệp của AI (từ No AI đến Fully Autonomous Agent), thiết lập tiêu chí đánh giá và hoàn thiện Problem Statement v1.
+
+**Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
+
+- Các mục Problem Card số 7, 8, 9 và phần đóng góp phản biện trong biên bản hội tụ nhóm (CP3).
+- Phần nghiên cứu dữ liệu và báo cáo tài liệu benchmark (CP4) trong thư mục `report/assets/`.
+- Sơ đồ quy trình Before/After và bảng phân tích điểm nghẽn (CP5).
+- Ma trận mức độ can thiệp AI, AI Canvas và bản Problem Statement v1 trong báo cáo chung `group_report.md` (CP6).
+
+**Điều mình học được từ phần nhóm:**
+
+- Hiểu được tầm quan trọng của việc bóc tách kỹ các bước trong quy trình thực tế để tìm ra điểm nghẽn (bottleneck) cốt lõi thay vì áp đặt giải pháp (solution-first) từ sớm.
+- Nhận thức rõ cách định lượng thời gian và tần suất lặp lại để chứng minh mức độ nghiêm trọng của vấn đề, đồng thời biết cách cân đối mức độ can thiệp của AI kết hợp cơ chế kiểm duyệt của con người (Human-in-the-loop) để đảm bảo tính an toàn và thực tiễn.
+
 ### NguyenAnhQuan-2A202603950
 
 **Phần việc phụ trách:**
