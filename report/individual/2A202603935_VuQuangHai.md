@@ -6,11 +6,11 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
+- Họ tên: Vũ Quang Hải
+- MSSV: 2A202603935
 - Email trường (không bắt buộc, repo có thể để public):
-- Tên nhóm:
-- Link repo nhóm:
+- Tên nhóm: LuckyTeam
+- Link repo nhóm: https://github.com/ndhai255/K5-L3B-DAY02-LuckyTeam-DiscoveryProblemFraming
 
 ---
 
